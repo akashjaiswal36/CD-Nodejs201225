@@ -5,10 +5,10 @@
 replicaCount: 2
 
 image:
-  repository: ajs3ra8/devops-mri
+  repository: 178502900821.dkr.ecr.ap-south-1.amazonaws.com/devops-mri
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
-  tag: fb512f1a04aa9c9770111185ba4bc33c07b6d5fe
+  tag: fbe2e514830140d8e6549f3245356415c9284fb5
 
 imagePullSecrets:
   - name: ecr-secret
