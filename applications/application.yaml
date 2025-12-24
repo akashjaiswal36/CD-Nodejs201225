@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: 'https://github.com/akashjaiswal36/CI-Nodejs201225.git'
+    repoURL: 'https://github.com/akashjaiswal36/CD-Nodejs201225.git'
     targetRevision: main
     path: helm/devops-mri
     helm:
