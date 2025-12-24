@@ -8,7 +8,7 @@ image:
   repository: ajs3ra8/devops-mri
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
-  tag: c03f3ae53d4a6c1a01d2665803f908c8d5b8fed3
+  tag: fb512f1a04aa9c9770111185ba4bc33c07b6d5fe
 
 imagePullSecrets:
   - name: ecr-secret
