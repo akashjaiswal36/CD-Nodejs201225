@@ -26,6 +26,12 @@ service:
   #  - secretName: chart-example-tls
   #    hosts:
   #      - chart-example.local
+db:
+  host: mysql-statefulset-0.my-db-headless-service
+  port: "3306"
+  user: root
+  password: Test123
+  name: appdb
 
 resources: {}
   # We usually recommend not to specify default resources and to leave this as a conscious
