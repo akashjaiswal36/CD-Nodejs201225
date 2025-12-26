@@ -29,9 +29,12 @@ service:
 db:
   host: mysql-statefulset-0.my-db-headless-service
   port: "3306"
-  user: root
-  password: Test123
   name: appdb
+
+dbSecret:
+  name: mysql-secret
+  userKey: DB_USER
+  passwordKey: DB_PASSWORD
 
 resources: {}
   # We usually recommend not to specify default resources and to leave this as a conscious
